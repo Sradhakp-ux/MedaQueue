@@ -1,0 +1,14 @@
+{
+  "token": {
+    "status": 200,
+    "body": "{\"refresh\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4NTY0NjMwOCwiaWF0IjoxNzg1NTU5OTA4LCJqdGkiOiI4ZjFhYjkwMmIxOTA0MWI2YjY0YzA3YzQzYzQxZTdhNiIsInVzZXJfaWQiOiI0In0.Yxn-_2VY0MJL_C4N1eUIdBAgHrMBEOwUs72b7fsZ7_Y\",\"access\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzg1NTYxNzA4LCJpYXQiOjE3ODU1NTk5MDgsImp0aSI6ImViMTU0Mjc2N2ZjYTRjYzBhM2M3NzQwMjQ1NzNjOGQyIiwidXNlcl9pZCI6IjQifQ.e99CqNjIHDQDYgS5Mv4o3iz4l5QogdGjuYmyiTFagro\"}"
+  },
+  "search": {
+    "status": 200,
+    "body": "[{\"id\":62,\"name\":\"Sneha Paul\",\"age\":30,\"gender\":\"Female\",\"phone\":\"9876543219\"}]"
+  },
+  "appointment": {
+    "status": 200,
+    "body": "{\"message\":\"Appointment created successfully\",\"appointment_id\":15,\"queue_number\":\"GEN005-20260802-001\",\"token\":\"GEN005-20260802-001\",\"position\":1,\"queue_position\":1,\"estimated_wait\":0,\"doctor\":\"Jatin Saraf\",\"department\":\"General Medicine\",\"patient\":\"Sneha Paul\"}"
+  }
+}

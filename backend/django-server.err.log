@@ -1,0 +1,101 @@
+Watching for file changes with StatReloader
+[02/Aug/2026 19:36:22] "GET /api/ HTTP/1.1" 302 0
+[02/Aug/2026 19:36:22] "GET /api/doctors/ HTTP/1.1" 200 6021
+[02/Aug/2026 19:36:22,945] - Broken pipe from ('127.0.0.1', 51304)
+[02/Aug/2026 19:39:53] "GET /api/ HTTP/1.1" 302 0
+[02/Aug/2026 19:39:53] "GET /api/doctors/ HTTP/1.1" 200 6021
+[02/Aug/2026 19:39:54,150] - Broken pipe from ('127.0.0.1', 56287)
+[02/Aug/2026 19:44:55] "OPTIONS /api/token/refresh/ HTTP/1.1" 200 0
+[02/Aug/2026 19:44:56] "POST /api/token/refresh/ HTTP/1.1" 200 246
+[02/Aug/2026 20:13:55] "POST /api/token/refresh/ HTTP/1.1" 200 246
+[02/Aug/2026 20:42:55] "POST /api/token/refresh/ HTTP/1.1" 200 246
+[02/Aug/2026 20:52:39] "OPTIONS /api/token/ HTTP/1.1" 200 0
+[02/Aug/2026 20:52:40] "POST /api/token/ HTTP/1.1" 200 494
+[02/Aug/2026 20:52:51] "POST /api/token/ HTTP/1.1" 200 494
+[02/Aug/2026 20:52:52] "OPTIONS /api/patient/dashboard/ HTTP/1.1" 200 0
+[02/Aug/2026 20:52:52] "OPTIONS /api/doctors/ HTTP/1.1" 200 0
+[02/Aug/2026 20:52:52] "OPTIONS /api/patient/dashboard/ HTTP/1.1" 200 0
+[02/Aug/2026 20:52:52] "OPTIONS /api/doctors/ HTTP/1.1" 200 0
+[02/Aug/2026 20:52:52] "GET /api/patient/dashboard/ HTTP/1.1" 200 268
+[02/Aug/2026 20:52:52] "GET /api/patient/dashboard/ HTTP/1.1" 200 268
+[02/Aug/2026 20:52:52] "GET /api/doctors/ HTTP/1.1" 200 6021
+[02/Aug/2026 20:52:52] "GET /api/doctors/ HTTP/1.1" 200 6021
+[02/Aug/2026 20:53:05] "POST /api/token/ HTTP/1.1" 200 494
+[02/Aug/2026 20:53:06] "GET /api/patient/dashboard/ HTTP/1.1" 200 268
+[02/Aug/2026 20:53:06] "GET /api/patient/dashboard/ HTTP/1.1" 200 268
+[02/Aug/2026 20:53:06] "GET /api/doctors/ HTTP/1.1" 200 6021
+[02/Aug/2026 20:53:06] "GET /api/doctors/ HTTP/1.1" 200 6021
+[02/Aug/2026 20:53:12] "POST /api/token/ HTTP/1.1" 200 489
+[02/Aug/2026 20:53:12] "OPTIONS /api/patient/profile/ HTTP/1.1" 200 0
+Not Found: /api/patient/profile/
+[02/Aug/2026 20:53:12] "GET /api/patient/profile/ HTTP/1.1" 404 58
+[02/Aug/2026 20:53:12] "OPTIONS /api/doctor-pairs/ HTTP/1.1" 200 0
+[02/Aug/2026 20:53:12] "GET /api/doctor-pairs/ HTTP/1.1" 200 7123
+[02/Aug/2026 20:53:14] "OPTIONS /api/doctor/34/dashboard/ HTTP/1.1" 200 0
+[02/Aug/2026 20:53:14] "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+[02/Aug/2026 20:53:19] "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+[02/Aug/2026 20:53:22] "OPTIONS /api/admin/overview/ HTTP/1.1" 200 0
+[02/Aug/2026 20:53:22] "OPTIONS /api/queue/ HTTP/1.1" 200 0
+[02/Aug/2026 20:53:22] "GET /api/queue/ HTTP/1.1" 200 3852
+[02/Aug/2026 20:53:22] "GET /api/admin/overview/ HTTP/1.1" 200 25435
+[02/Aug/2026 20:53:31] "POST /api/token/ HTTP/1.1" 200 494
+[02/Aug/2026 20:53:32] "GET /api/patient/dashboard/ HTTP/1.1" 200 268
+[02/Aug/2026 20:53:32] "GET /api/patient/dashboard/ HTTP/1.1" 200 268
+[02/Aug/2026 20:53:32] "GET /api/doctors/ HTTP/1.1" 200 6021
+[02/Aug/2026 20:53:32] "GET /api/doctors/ HTTP/1.1" 200 6021
+[02/Aug/2026 20:53:53] "OPTIONS /api/departments/ HTTP/1.1" 200 0
+[02/Aug/2026 20:53:53] "OPTIONS /api/departments/ HTTP/1.1" 200 0
+[02/Aug/2026 20:53:53] "GET /api/departments/ HTTP/1.1" 200 629
+[02/Aug/2026 20:53:53] "GET /api/departments/ HTTP/1.1" 200 629
+[02/Aug/2026 20:53:53] "OPTIONS /api/doctors/?search=&department=&min_rating=0&available=false HTTP/1.1" 200 0
+[02/Aug/2026 20:53:53] "GET /api/doctors/?search=&department=&min_rating=0&available=false HTTP/1.1" 200 6021
+[02/Aug/2026 20:54:00] "POST /api/token/ HTTP/1.1" 200 489
+[02/Aug/2026 20:54:02] "GET /api/departments/ HTTP/1.1" 200 629
+[02/Aug/2026 20:54:02] "GET /api/departments/ HTTP/1.1" 200 629
+C:\Users\latha\OneDrive\Desktop\MedaQueue\backend\config\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\latha\OneDrive\Desktop\MedaQueue\backend\config\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\latha\OneDrive\Desktop\MedaQueue\backend\config\settings.py changed, reloading.
+INFO 2026-08-02 21:35:11,387 autoreload Watching for file changes with StatReloader
+INFO 2026-08-02 21:35:29,853 autoreload C:\Users\latha\OneDrive\Desktop\MedaQueue\backend\core\permissions.py changed, reloading.
+INFO 2026-08-02 21:35:31,400 autoreload Watching for file changes with StatReloader
+INFO 2026-08-02 21:36:19,893 basehttp "POST /api/token/refresh/ HTTP/1.1" 200 244
+WARNING 2026-08-02 21:36:20,047 log Bad Request: /api/token/
+WARNING 2026-08-02 21:36:20,049 basehttp "POST /api/token/ HTTP/1.1" 400 89
+INFO 2026-08-02 21:36:26,096 basehttp "POST /api/token/ HTTP/1.1" 200 489
+WARNING 2026-08-02 21:36:26,104 log Not Found: /api/patient/profile/
+WARNING 2026-08-02 21:36:26,107 basehttp "GET /api/patient/profile/ HTTP/1.1" 404 58
+INFO 2026-08-02 21:36:26,122 basehttp "GET /api/doctor-pairs/ HTTP/1.1" 200 7123
+INFO 2026-08-02 21:36:26,998 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:36:32,847 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:36:37,823 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:36:41,995 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:36:58,400 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:36:58,427 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:37:09,646 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:37:23,016 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:41:21,237 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:41:26,812 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:41:31,814 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:41:36,816 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:41:41,806 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:41:46,816 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:41:51,814 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:41:56,814 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:42:01,817 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:42:06,822 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:42:11,808 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:42:16,814 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:42:45,822 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:43:45,821 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:44:45,814 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:45:45,828 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:46:45,825 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:47:45,810 basehttp "GET /api/doctor/34/dashboard/ HTTP/1.1" 200 750
+INFO 2026-08-02 21:47:47,281 autoreload C:\Users\latha\OneDrive\Desktop\MedaQueue\backend\config\settings.py changed, reloading.
+INFO 2026-08-02 21:47:48,628 autoreload Watching for file changes with StatReloader
+INFO 2026-08-02 21:48:04,136 autoreload C:\Users\latha\OneDrive\Desktop\MedaQueue\backend\config\settings.py changed, reloading.
+INFO 2026-08-02 21:48:05,223 autoreload Watching for file changes with StatReloader
+INFO 2026-08-02 21:48:47,792 autoreload C:\Users\latha\OneDrive\Desktop\MedaQueue\backend\config\urls.py changed, reloading.
+INFO 2026-08-02 21:48:48,579 autoreload Watching for file changes with StatReloader
