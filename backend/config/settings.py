@@ -38,10 +38,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "django-insecure-ygqb&si&cmd-^1t$nj^3ox=^4h75pypm(2vu)mhb0nf_tl0tdl")
 
-DEBUG = _get_bool("DJANGO_DEBUG", True)
+DEBUG = _get_bool("DJANGO_DEBUG", False)
 
-ALLOWED_HOSTS = _get_list("DJANGO_ALLOWED_HOSTS", [] if DEBUG else ["localhost", "127.0.0.1", ".onrender.com"])
-
+ALLOWED_HOSTS = [
+    "medaqueue-backend.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 # Application definition
 
