@@ -40,7 +40,7 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "django-insecure-ygqb&si&cmd-^1t$nj^
 
 DEBUG = _get_bool("DJANGO_DEBUG", True)
 
-ALLOWED_HOSTS = _get_list("DJANGO_ALLOWED_HOSTS", [] if DEBUG else ["localhost", "127.0.0.1"])
+ALLOWED_HOSTS = _get_list("DJANGO_ALLOWED_HOSTS", [] if DEBUG else ["localhost", "127.0.0.1", ".onrender.com"])
 
 
 # Application definition

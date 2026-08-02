@@ -99,3 +99,5 @@ INFO 2026-08-02 21:48:04,136 autoreload C:\Users\latha\OneDrive\Desktop\MedaQueu
 INFO 2026-08-02 21:48:05,223 autoreload Watching for file changes with StatReloader
 INFO 2026-08-02 21:48:47,792 autoreload C:\Users\latha\OneDrive\Desktop\MedaQueue\backend\config\urls.py changed, reloading.
 INFO 2026-08-02 21:48:48,579 autoreload Watching for file changes with StatReloader
+INFO 2026-08-02 23:20:22,675 autoreload C:\Users\latha\OneDrive\Desktop\MedaQueue\backend\config\settings.py changed, reloading.
+INFO 2026-08-02 23:20:26,323 autoreload Watching for file changes with StatReloader

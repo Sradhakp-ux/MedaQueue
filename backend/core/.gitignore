@@ -1,0 +1,27 @@
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Django
+backend/db.sqlite3
+backend/staticfiles/
+backend/media/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+npm-debug.log*
+
+# Logs
+*.log
+frontend/next-dev.err.log
+frontend/next-dev.out.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
